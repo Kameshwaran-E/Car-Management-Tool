@@ -1,0 +1,163 @@
+.dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    overflow: hidden;
+    text-transform: capitalize
+  }
+
+  .dndflow aside {
+    border-right: 1px solid #eee;
+    margin: 10px;
+    padding: 20px 10px;
+    font-size: 18px;
+    background: #eeeeee;
+    border-radius: 20px;
+   
+  } 
+  .dndflow aside .description {
+    margin-bottom: 10px;
+    text-transform: none;
+  }
+  
+  .dndflow .dndnode {
+    padding: 4px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    cursor: grab;
+  }
+
+  .dndflow .dndnode.input {
+    background-color: #0041d0;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+   
+  }
+  
+  .dndflow .dndnode.output {
+    background-color:  #ff0072;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .dndflow .selectall {
+    margin-top: 10px;
+  }
+
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+      flex-direction: row-reverse;
+    }
+  
+    .dndflow aside {
+      width: 20%;
+      max-width: 250px;
+    }
+   
+  }
+  .react-flow__node-output, .react-flow__node-group {
+    padding: 4px;
+    border-radius: 3px;
+    width: 300px;
+    font-size: 36px;
+    color: #222;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1a192b;
+    background-color: white;
+}
+.react-flow__node-input{
+  padding: 4px;
+    border-radius: 5px;
+    width: 400px;
+    font-size: 40px;
+    color: #222;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1a192b;
+    background-color: white;
+    
+}
+.react-flow__node-default{
+  padding: 4px;
+  border-radius: 3px;
+  width: 300px;
+  font-size: 36px;
+  color: #222;
+  text-align: center;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1a192b;
+  background-color: white;
+
+}
+.react-flow__node-default:hover{
+  background-color: #5aa0e2;
+  color: white;
+}
+.btn{
+  margin-top: 20px;
+}
+.updatenode__controls{
+  padding: 20px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #eeeeee;
+  font-size: 18px;
+}
+input{
+  margin-top: 15px;
+  height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 15px;
+   border: none;
+padding: 5px;
+}
+
+.btn{
+    background-color: #5aa0e2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border: #eee;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+} 
+label{
+  color:black;
+}
+.hoverData{
+  background-color: white;
+  width: auto;
+  height: auto;
+  color: black;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 20px;
+}
+h2{
+  margin-bottom: 10px;
+}
